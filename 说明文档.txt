@@ -1,0 +1,23 @@
+推荐使用：谷歌浏览器
+
+网址：http://localhost:8080/pj-ssmj
+
+访客需要选中所选单选按钮，点击登录就行了 用户名 和 密码 输入或不输入都行
+
+
+
+用户：111 密码：111
+
+管理员  admin  密码：admin     
+ 
+
+
+在src\main\resources\config.properties中编辑
+											
+	jdbc_url=jdbc:mysql://127.0.0.1:3306/pj-ssmj?useUnicode=true&characterEncoding=UTF-8&tinyInt1isBit=false
+
+	jdbc_username=root	    数据库用户名 root
+	jdbc_password=123456	用户密码    123456
+
+
+图片存放路径： src\main\webapp\upload 里面上传图片名里面不能有中文
